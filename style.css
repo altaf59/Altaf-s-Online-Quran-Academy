@@ -1,0 +1,240 @@
+body {
+   
+    background-color: #f4f4f4;
+   
+}
+.header-div {
+    background-image: url("Quran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    border: #000000 solid 2px;
+    border-radius: 20px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-div h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-style: italic;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #be9552;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #111;
+    border-radius: 5px;
+}
+
+div.image-div {
+    text-align: justify;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+div.image-div img {
+    width: 400px;     
+    height: 400px;    
+    float: left;
+    margin-right: 20px; 
+    border-radius: 10px;
+}
+
+div.image-div p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+div.image-div h1 {
+   color: #be9552;
+   font-size: 50px;
+}
+
+.learning-section {
+    padding: 20px;
+    text-align: justify;
+}
+
+.learning-section h2{
+    color: #be9552;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.learning-section img{
+    width: 250px;
+    height: auto;
+    float: right;
+    border-radius: 10px;
+
+}
+
+.learning-section p{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+.Courses {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 60px 0 20px; 
+}
+
+
+
+
+
+.courses{
+    border: gray solid 2px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgb(31,33,32);
+    width: 300px;
+    background-color: white;
+    margin: 10px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.courses img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.courses h3{
+    color: #be9552;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.courses p{
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.4;
+}
+
+.courses:hover {
+    box-shadow: 5px 5px 15px rgb(31,32,32);
+    transform: scale(1.05);
+}
+.read-more {
+    text-decoration: none;
+    color: black;
+    background-color: #be9552;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.read-more:hover {
+    background-color: #111;
+    color: white;
+}
+footer{
+    text-align: center;
+    background-color: #be9552;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+footer a:hover{
+    transition:color 0.3s ease;
+    color: black;
+}
+#contact{
+    padding: 20px;
+    text-align: center;
+    border: gray solid 2px;
+    border-radius: 10px;
+    margin: 100px auto;
+    width:400px;
+    height:500px;
+
+
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(31,33,32);
+}
+#contact h1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#contact button{
+    background-color: #be9552;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+#contact button:hover{
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+.about h2{
+    color: #be9552;
+    font-size: 40px;
+    text-align: cente;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+.image-about img{
+    width: 500px;
+
+
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
